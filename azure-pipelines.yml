@@ -17,3 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+- task: ExecuteLoadRunnerProfessional@0
+  inputs:
+    SourcePath: 'Z:\Testing\Projects\AS_T-Mobile_Quarterly\Scenario\AssetRecover7Scripts21VUsersOnceTimeTest.lrs'
+    ResultsDirectory: 'C:\tmp\Results'
