@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+  poolName: 'Default'
   Agent name: 'MSP0WLDRT100'
 
 steps:
