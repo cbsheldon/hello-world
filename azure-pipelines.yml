@@ -8,7 +8,7 @@ trigger:
 
 pool:
 #  vmImage: 'ubuntu-latest'
-  vmImage: 'Windows-latest'
+  vmImage: 'MSP0WLDRT100'
   poolName: 'Default'
   Agentname: 'MSP0WLDRT100'
 
