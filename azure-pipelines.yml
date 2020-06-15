@@ -19,5 +19,5 @@ steps:
   displayName: 'Run a multi-line script'
 - task: ExecuteLoadRunnerProfessional@0
   inputs:
-    SourcePath: 'Z:\Testing\Projects\AS_T-Mobile_Quarterly\Scenario\AssetRecover7Scripts21VUsersOnceTimeTest.lrs'
+    SourcePath: 'C:\tmp\AssetRecover7Scripts21VUsersOnceTimeTest.lrs'
     ResultsDirectory: 'C:\tmp\Results'
