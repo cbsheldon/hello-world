@@ -8,6 +8,7 @@ trigger:
 
 pool:
   vmImage: 'ubuntu-latest'
+  Agent name: 'MSP0WLDRT100'
 
 steps:
 - script: echo Hello, world!
