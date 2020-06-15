@@ -7,9 +7,10 @@ trigger:
 - master
 
 pool:
-  vmImage: 'ubuntu-latest'
+#  vmImage: 'ubuntu-latest'
+  vmImage: 'Windows-latest'
   poolName: 'Default'
-  Agent name: 'MSP0WLDRT100'
+  Agentname: 'MSP0WLDRT100'
 
 steps:
 - script: echo Hello, world!
