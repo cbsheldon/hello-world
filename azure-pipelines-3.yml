@@ -17,6 +17,7 @@ steps:
     echo Add other tasks to build, test, and deploy your project.
     echo See https://aka.ms/yaml
   displayName: 'Run a multi-line script'
+pool: 'Default'
 - task: ExecuteLoadRunnerProfessional@0
   inputs:
     SourcePath: 'C:\tmp\AssetRecover7Scripts21VUsersOnceTimeTest.lrs'
