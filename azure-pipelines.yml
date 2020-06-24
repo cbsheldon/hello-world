@@ -6,12 +6,13 @@
 trigger:
 - master
 
-pool:
-#  vmImage: 'ubuntu-latest'
-  vmImage: 'Windows-latest'
-  name: Default
-#  poolName: 'Default'
-  Agent.name:  MSP0WLDRT100
+#pool:
+##  vmImage: 'ubuntu-latest'
+#  vmImage: 'Windows-latest'
+#  name: Default
+##  poolName: 'Default'
+#  Agent.name:  MSP0WLDRT100
+pool: 'Default'
 
 steps:
 - script: echo Hello, world!
