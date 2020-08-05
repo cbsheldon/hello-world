@@ -15,7 +15,7 @@ trigger:
 pool: 
   Name: Default
   demands:
-  name: msp0wldrt100 
+  Agent-name: msp0wldrt100 
 
 steps:
 - script: echo Hello, world!
