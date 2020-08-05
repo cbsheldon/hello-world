@@ -10,8 +10,6 @@ trigger:
 #  vmImage: 'ubuntu-latest'
 pool: 
 name: Default
-demands:
-- Agent.name -equals msp0wldrt100
 
 steps:
 - script: echo Hello, world!
