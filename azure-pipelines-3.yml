@@ -8,8 +8,8 @@ trigger:
 
 #pool:
 #  vmImage: 'ubuntu-latest'
-pool: 
-name: Default
+pool: Default
+name: msp0wldrt100
 
 steps:
 - script: echo Hello, world!
