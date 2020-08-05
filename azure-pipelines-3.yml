@@ -9,10 +9,12 @@ trigger:
 #pool:
 #  vmImage: 'ubuntu-latest'
 pool: 'Default'
+demands:
+- Agent.name -equals msp0wldrt100
 
 steps:
-#- script: echo Hello, world!
-#  displayName: 'Run a one-line script'
+- script: echo Hello, world!
+  displayName: 'Run a one-line script - HelloWorld'
 
 
 - script: |
