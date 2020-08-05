@@ -12,7 +12,10 @@ trigger:
 #  name: Default
 ##  poolName: 'Default'
 #  Agent.name:  MSP0WLDRT100
-pool: 'Default'
+pool: 
+  Name: Default
+  demands:
+  name: msp0wldrt100 
 
 steps:
 - script: echo Hello, world!
