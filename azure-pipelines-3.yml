@@ -11,8 +11,8 @@ trigger:
 pool: 'Default'
 
 steps:
-- script: echo Hello, world!
-  displayName: 'Run a one-line script'
+#- script: echo Hello, world!
+#  displayName: 'Run a one-line script'
 
 
 - script: |
