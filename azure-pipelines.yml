@@ -13,9 +13,9 @@ trigger:
 ##  poolName: 'Default'
 #  Agent.name:  MSP0WLDRT100
 pool: 
-  Name: Default
-  demands:
-  -Agent.name -equals MSP0WLDRT100
+name: Default
+demands:
+-Agent.name -equals MSP0WLDRT100
 
 steps:
 - script: echo Hello, world!
