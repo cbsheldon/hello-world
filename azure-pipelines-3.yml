@@ -8,7 +8,8 @@ trigger:
 
 #pool:
 #  vmImage: 'ubuntu-latest'
-pool: 'Default'
+pool: 
+name: Default
 demands:
 - Agent.name -equals msp0wldrt100
 
